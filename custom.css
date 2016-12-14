@@ -51,7 +51,7 @@ nav ul {
 }
 
 nav ul li {
-  margin: 0 20px;
+  margin: 0 25px;
   display: inline-block;
 }
 
@@ -73,7 +73,7 @@ nav ul li a.selected {
 }
 
 section {
-  padding: 30px 20px;
+  padding: 25px 15px;
 }
 
 section h2 {
@@ -82,10 +82,36 @@ section h2 {
   letter-spacing: 0.15em;
 }
 
+div.imagebox {
+   border: 1px dashed #0000cc; /* 枠線 */
+   background-color: #eeeeff;  /* 背景色 */
+   width: 150px; /* 横幅 */
+   float: left; /* 左に配置 */  
+   margin: 5px; /* 周囲の余白 */
+}
+
+p.image, p.caption {
+   text-align: center; /* 3.中央寄せ */
+   margin: 5px;        /* 4.余白・間隔 */
+}
+
+p.caption {
+   font-size: 80%;  /* 5.文字サイズ */
+   color: darkblue; /* 6.文字色 */
+}
+
+h4 {
+clear: both;
+}
+
 footer {
-  padding: 20px 0;
-  font-size: 93%;
+clear: both;
+}
+
+footer {
+  padding: 15px 0;
+  font-size: 70%;
   text-align: center;
   background-color: #ccc;
-  color: #666;
+  color: #653;
 }
